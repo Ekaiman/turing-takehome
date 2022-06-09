@@ -2,21 +2,21 @@ import './App.css'
 import { useEffect, useState } from 'react'
 import fetchData from '../../apiCalls'
 import ArticleHolder from '../ArticleHolder/ArticleHolder'
+import { Route, Routes } from 'react-router-dom'
+import Deatils from '../Details/Details'
+import { ArticleDataProvider } from '../../Context/ArticleData'
 
 const App = () => {
-  const [articles, setArticles] = useState([])
-
-  useEffect(() => {
-    fetchData().then(data => {
-      console.log(data.results)
-      setArticles(data.results)
-    })
-  }, [])
 
   return (
-    <div className='App'>
-      <ArticleHolder articles={articles}/>
-    </div>
+    <ArticleDataProvider>
+      <div className='App'>
+        <Routes>
+          <Route exact path='/' element={<ArticleHolder />} />
+          <Route exact path='/article/:id' element={<Deatils />} />
+        </Routes>
+      </div>
+    </ArticleDataProvider>
   )
 }
 
