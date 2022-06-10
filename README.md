@@ -49,13 +49,6 @@ From the Listings page, the user can click an article to see more details.  From
 - CSS
 - Cypress
 
-#### Future Additions & Improvements
-- Business of the Day featured on Home Page
-- Sort businesses by distance from your location/address
-- Sign-in functionality
-- GeoPlugin Package
-- Bookmark from Business Detail Page
-
 
 #### Contributors
 <table>
