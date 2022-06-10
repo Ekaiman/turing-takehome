@@ -4,11 +4,11 @@ Art Times is a an application built using the framework React that displays some
 
 #### Architecture
 - Context Api
-
+---
 - App
 - Article Holder
 - Article
-
+---
 - App
 - Details
 
