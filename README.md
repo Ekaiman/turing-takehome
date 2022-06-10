@@ -1,14 +1,6 @@
-# DiverCity: Inclusive Business Guide
+# NYT Take home
 
 DiverCity: Inclusive Business Guide is the capstone project built during Mod 4 of Turing School of Software & Design. This application is resource for users to browse and discover LGBQT+ & BIPOC owned businesses. The frontend structure utilizes React.js framework, React Context API for global state management and Cypress for End-to-End testing automated with CircleCI.
-
-Visit the deployed site here: [DiverCity Inclusive Business Guide](https://divercity-guide.herokuapp.com/)
-
-View wireframes on Figma: [DiverCity Wireframes](https://www.figma.com/file/SQRw2Z6wwgakXw99JE2BJE/DiverCity%3A-Inclusive-Business-Guide?node-id=0%3A1)
-
-View the backend repo: [DiverCity BE Repo](https://github.com/Capstone-LGBTQ-BIPOC/BE_DiverCity/)
-
-Read the specs: [Project Specs](https://mod4.turing.edu/projects/capstone/)
 
 ## Goals
 
@@ -34,27 +26,23 @@ Read the specs: [Project Specs](https://mod4.turing.edu/projects/capstone/)
 **Search Location:**
 On page load, the business search location defaults to Atlanta, GA. Users can enter a new city by using the form located near the top of the page. After submission, the search results update using the new location - regardless of which page it was changed from.
 
-![DiverCity - Home Page](https://user-images.githubusercontent.com/91504411/170537665-50c8e560-9391-4c0f-b9dd-7e1e0334d948.gif)
+![DiverCity - Home Page](https://media.giphy.com/media/OuiO8r0nodC7JOWpvT/giphy.gif)
 
 **Listings Page:**
 The categories available for a user to search are Food & Drink, Shopping, and Arts & Entertainment. After selecting a category, the user is directed to search results with a list of businesses to choose from. From this page a user can filter their results, see details for a specific business, or save a business to their "Want to Visit" list. 
 
-![DiverCity - Listings Page](https://user-images.githubusercontent.com/91504411/170537678-d961b540-adac-4a2a-8100-a29eea2e86fc.gif)
+![DiverCity - Listings Page](https://media.giphy.com/media/6X9LlZPodhAlW6Dg0J/giphy.gif)
 
 **Subcategory Filter:**
 The subcategory filter is available for a user to narrow their business search on the left corner above the business listings. The user can select the subcategory dropdown and filter the businesses by the selected subcategory. The user can choose to revert the search to show all business listings by selecting show all at the top of the subcategory list.
 
-![DiverCity - Subcategory](https://user-images.githubusercontent.com/91504411/170537692-3d4f371c-68be-425f-a278-8514717fe079.gif)
 
 **Business Detail Page:**
 From the Listings page, the user can select the "Learn More" button. The user is directed to the Business Detail Page. From this page a user can find details for the business of their choice, including the address, phone number, business hours, Yelp listing link, and recommendations from users for the given business. From this page the user can go back to the listings page, or direct to Home or the "Want to Visit" page, where any bookmarked businesses will be listed.
 
-![DiverCIty - Business Details Page](https://user-images.githubusercontent.com/91504411/170537699-658e33dc-5fb5-48e8-b3bc-dfa0c3872e4d.gif)
 
-**Bookmarking:**
-From the Listings page, the user can select the "Bookmark" button to add the business to their Want to Visit page. Users can "Unbookmark" a business if a business has been bookmarked. Unbookmarking a business will remove the business from the Want to Visit page. From the Want to Visit page the user can navigate to Home, or any of the Listings pages for a given category.
 
-![DiverCity - Bookmarks](https://user-images.githubusercontent.com/91504411/170537715-cd5ac84d-3b54-4f0b-9080-de1d1669a554.gif)
+
 
 ---
 
