@@ -7,9 +7,11 @@ import Deatils from '../Details/Details'
 import { ArticleDataProvider } from '../../Context/ArticleData'
 
 const App = () => {
-
   return (
     <ArticleDataProvider>
+      <header className='title'>
+        <h1>Art Times</h1>
+      </header>
       <div className='App'>
         <Routes>
           <Route exact path='/' element={<ArticleHolder />} />
