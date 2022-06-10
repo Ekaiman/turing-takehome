@@ -12,16 +12,17 @@ const ArticleHolder = ({}) => {
   let eachArticle
 
   eachArticle = articles.map(article => {
-    let { title, section, abstract, byline, id } = article
+    let { title, section, abstract, byline, id, multimedia } = article
 
     return (
-      <Link key={title} to={`article/${id}`}>
+      <Link key={title} to={`article/${id}`} style={{ textDecoration: 'none',  color:'black'}}>
         <Article
           section={section}
           title={title}
           abstract={abstract}
           byline={byline}
           key={id}
+          img={multimedia[0].url}
         />
       </Link>
     )
@@ -48,16 +49,21 @@ const ArticleHolder = ({}) => {
           return article
         }
       }).map(article => {
-        let { title, section, abstract, byline, id } = article
+        let { title, section, abstract, byline, id, multimedia } = article
 
         return (
-          <Link key={title} to={`article/${id}`}>
+          <Link
+            key={title}
+            to={`article/${id}`}
+            style={{ textDecoration: 'none', color: 'black' }}
+          >
             <Article
               section={section}
               title={title}
               abstract={abstract}
               byline={byline}
               key={id}
+              img={multimedia[0].url}
             />
           </Link>
         )
@@ -66,7 +72,7 @@ const ArticleHolder = ({}) => {
 
   return (
     <div>
-      <select
+     <p>Filter by type:</p> <select
         className='sub-category-option'
         value={filter}
         onChange={e => setFilter(e.target.value)}
