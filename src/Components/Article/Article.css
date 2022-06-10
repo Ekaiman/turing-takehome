@@ -1,0 +1,13 @@
+.article{
+  border: solid rgb(199, 199, 199);
+  height: 20rem;
+  width: 20rem;
+  padding: 2rem;
+  margin: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.images{
+  object-fit: contain;
+  height: 8rem;
+}
