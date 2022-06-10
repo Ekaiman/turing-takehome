@@ -1,16 +1,16 @@
 # NYT Take home
 
-DiverCity: Inclusive Business Guide is the capstone project built during Mod 4 of Turing School of Software & Design. This application is resource for users to browse and discover LGBQT+ & BIPOC owned businesses. The frontend structure utilizes React.js framework, React Context API for global state management and Cypress for End-to-End testing automated with CircleCI.
+Art Times is a an application built using the framework React that displays some of the most popular art related articles from the New York Times. Using Context Api all the data is fetched and then put through a cleaning function where Id's are added to each article. 
 
-## Goals
+#### Architecture
+- Context Api
 
-- Use an agile process to turn well defined requirements into deployed and production ready software
-- Gain experience dividing applications into components and domains of responsibilities to facilitate multi-developer teams
-- Explore and implement new concepts, patterns, or libraries that have not been explicitly taught while at Turing
-- Practice an advanced, professional git workflow including a Pull Request Review
-- Gain experience using continuous integration tools to build and automate the deployment of features
-- Build applications that execute in development, test, CI, and production environments
-- Focus on communication between front-end and back-end teams in order to complete and deploy features that have been outlined by the project spec
+- App
+- Article Holder
+- Article
+
+- App
+- Details
 
 ## How to Run
 
@@ -64,14 +64,8 @@ From the Listings page, the user can select the "Learn More" button. The user is
 - React Hooks
 - React Router
 - Context API
-- PropTypes
 - CSS
-- HTML
 - Cypress
-- Circle CI
-- Heroku
-- VS Code
-- Atom
 
 #### Future Additions & Improvements
 - Business of the Day featured on Home Page
@@ -80,10 +74,6 @@ From the Listings page, the user can select the "Learn More" button. The user is
 - GeoPlugin Package
 - Bookmark from Business Detail Page
 
-#### Credits
-- Brand Image: [Macrovector](https://www.vecteezy.com/vector-art/4454727-social-diversity-people-composition)
-- Button Icons: [Font Awesome](https://fontawesome.com/icons) 
----
 
 #### Contributors
 <table>
