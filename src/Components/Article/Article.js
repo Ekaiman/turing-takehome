@@ -1,13 +1,12 @@
 import './Article.css'
-const Article = ({section, title, byline, abstract}) => { 
-
+const Article = ({ section, title, byline, abstract, img }) => {
   return (
-    <div className="article" >
-      <h1>{section}</h1>
-      <p>{title}</p>
-      <p>{abstract}</p>
+    <section className='article'>
+      <img src={img} className='images'/>
+      <h1>{title}</h1>
       <p>{byline}</p>
-    </div>
+      <p>{abstract}</p>
+    </section>
   )
 }
 
